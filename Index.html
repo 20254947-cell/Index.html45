@@ -1,41 +1,153 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Laboratory Exam - Xyrel Yvan B. Gatawa</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>My Personal Blog</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #ffffff;
+  color: crimson;
+}
+
+.container {
+  max-width: 1300px;
+  margin: 40px auto;
+  background-color: #0004ff;
+  border: 3px solid #000000;
+  display: grid;
+  grid-template-rows: auto 1fr;
+}
+
+header {
+  background-color: #ff0000;
+  color: rgb(0, 30, 255);
+  text-align: center;
+  padding: 40px 20px;
+  font-size: 28px;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.main {
+  display: grid;
+  grid-template-columns: 250px 1fr;
+  border-top: 3px solid #222;
+  min-height: 550px;
+}
+
+nav {
+  background-color: #00ff0d;
+  border-right: 3px solid #000000;
+  padding: 20px;
+}
+
+nav h2 {
+  text-align: center;
+  margin-bottom: 15px;
+  font-size: 20px;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav li {
+  margin: 10px 0;
+}
+
+nav a {
+  text-decoration: none;
+  color: #ff0000;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  color: #007bff;
+}
+
+.content {
+  padding: 30px;
+}
+
+.content h3 {
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+.post {
+  margin-bottom: 20px;
+  padding: 15px;
+  background: #000000;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.post h4 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+@media (max-width: 768px) {
+  .main {
+    grid-template-columns: 1fr;
+  }
+  nav {
+    border-right: none;
+    border-bottom: 3px solid #222;
+  }
+}
+
+  </style>
 </head>
 <body>
-    <table border = "1"></table>
-    <header>
-        <img><a href = "Profile Pic.png">Profile Pic</a></img>
-        <h1>Name:Xyrel Yvan B. Gatawa</h1>
-        <h2>Course and Year:BSIT-1st Year</h2>
-    </header>
-<nav>
-    <a href = "index.html">Home</a>
-    <a href = "#about">About</a>
-    <a href = "Projects.html">Projects</a>
-</nav>
-<hr>
-<h1><b><u>About Me:</u></b></h1>
-<p>Hello! my name is Xyrel Yvan B. Gatawa I enroll in Information Technology.</p>
-<hr>
-<ul>My Favorite Hobbies</ul>
-<li>Playing video games like codm,pubg,roblox</li>
-<li>Practicing drawing</li>
-<li>Reading on my phone like manga,webtoon,manhua</li>
-<li>Watching anime</li>
-<hr>
-<ol>My Favorite Websites</ol>
-<li><a href = "Youtube.com"></a>Youtube</li>
-<li><a href = "Tiktok.com"></a>Tiktok</li>
-<li><a href = "Loklok.com"></a>Loklok</li>
-<li><a href = "Netflix.com"></a>Netflix</li>
-<li><a href = "Facebook.com"></a>Facebook</li>
-<hr>
-<footer>
-    <p target id = "_blank">Contact Number:09773886639</p>
-</footer>
+  <div class="container">
+    <header>My Gaming Adventures</header><div class="main">
+  <nav>
+    <h2>Menu</h2>
+    <ul>
+      <li><a href="Index.html">Home</a></li>
+      <li><a href="About.html">About</a></li>
+      <li><a href="Reviews.html">Reviews</a></li>
+      <li><a href="Guides.html">Guides</a></li>
+      <li><a href="Contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+  <div class="content">
+    <h3>Welcome to My Blog</h3>
+    <div class="post">
+      <h4>My Favorite Games</h4>
+      <p>I’ve played many games over many year,and I have been playing 12 games that will always have a special place in my heart is <em>CODM,PUBG,ROBLOX,MLBB,GTA,AMONG US,LEFT 4 DEAD,VALORANT,BLOODSTRIKE,GENSHIN IMPACT,HONKAI IMPACT,BLUE ARCHIVE</em>.play with friends,and family,and other strangers.</p>
+    </div>
+
+    <div class="post">
+      <h4>Tips for Staying Motivated as a Gamer</h4>
+      <p>It’s easy to get burned out playing the same thing over and over again. My advice is to try new genres, play with friends,families, and take breaks to enjoy real-life adventures too!</p>
+    </div>
+    <div id="center-content">
+        <iframe src="https://www.youtube.com/embed/W2PmHyJXnjk" allowfullscreen></iframe>
+        <iframe src="https://www.youtube.com/embed/IEGcCD87G4s" allowfullscreen></iframe>
+        <iframe src="https://www.youtube.com/embed/whorfdIH2is" allowfullscreen></iframe>
+        <iframe src="https://www.youtube.com/embed/wxw14pLOp10" allowfullscreen></iframe>
+        <iframe src="https://www.youtube.com/embed/7dNxjkJqEAg" allowfullscreen></iframe>
+        <iframe src="https://www.youtube.com/embed/5lzzgVbc6Rs" allowfullscreen></iframe>
+        <iframe src="https://www.youtube.com/embed/XcuP36mF05M" allowfullscreen></iframe>
+        <iframe src="https://www.youtube.com/embed/GCWkjdE8TQw" allowfullscreen></iframe>
+        <iframe src="https://www.youtube.com/embed/SQPsqxyB7tE" allowfullscreen></iframe>
+        <iframe src="https://www.youtube.com/embed/HLUY1nICQRY" allowfullscreen></iframe>
+        <iframe src="https://www.youtube.com/embed/1KqkQL4--dM" allowfullscreen></iframe>
+        <iframe src="https://www.youtube.com/embed/YHy8JmWX3kw" allowfullscreen></iframe>
+    </div>
+  </div>
+</div>
+
+  </div>
 </body>
 </html>
